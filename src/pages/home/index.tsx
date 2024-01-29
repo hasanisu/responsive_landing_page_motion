@@ -1,9 +1,11 @@
 import Container from "@/components/Container";
+import AboutUsSection from "./AboutUsSection";
+import HeroSection from "./HeroSection";
 
 const Home = () => {
   return (
     <Container>
-      <h1>This is Home Componets</h1>
+      <HeroSection />
     </Container>
   );
 };
